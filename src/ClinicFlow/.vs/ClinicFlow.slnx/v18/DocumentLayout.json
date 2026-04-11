@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aquir\\Documents\\ProyectosPersonales\\clinicflow\\src\\ClinicFlow\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{64108363-4F4D-4416-85C0-B31DF6F468F8}|ClinicFlow.Infrastructure\\ClinicFlow.Infrastructure.csproj|c:\\users\\aquir\\documents\\proyectospersonales\\clinicflow\\src\\clinicflow\\clinicflow.infrastructure\\clinicflow.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{64108363-4F4D-4416-85C0-B31DF6F468F8}|ClinicFlow.Infrastructure\\ClinicFlow.Infrastructure.csproj|solutionrelative:clinicflow.infrastructure\\clinicflow.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C98E059-CB1B-4BD8-A2F4-29BD8DC9DEE7}|ClinicFlow.ArchitectureTests\\ClinicFlow.ArchitectureTests.csproj|c:\\users\\aquir\\documents\\proyectospersonales\\clinicflow\\src\\clinicflow\\clinicflow.architecturetests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C98E059-CB1B-4BD8-A2F4-29BD8DC9DEE7}|ClinicFlow.ArchitectureTests\\ClinicFlow.ArchitectureTests.csproj|solutionrelative:clinicflow.architecturetests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{515DCF31-60EF-486F-9D73-2A5BFB06BDF2}|ClinicFlow.IntegrationTests\\ClinicFlow.IntegrationTests.csproj|c:\\users\\aquir\\documents\\proyectospersonales\\clinicflow\\src\\clinicflow\\clinicflow.integrationtests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{515DCF31-60EF-486F-9D73-2A5BFB06BDF2}|ClinicFlow.IntegrationTests\\ClinicFlow.IntegrationTests.csproj|solutionrelative:clinicflow.integrationtests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A24FEC-4BF6-4FC4-BD4E-D92C92006759}|ClinicFlow.UnitTests\\ClinicFlow.UnitTests.csproj|c:\\users\\aquir\\documents\\proyectospersonales\\clinicflow\\src\\clinicflow\\clinicflow.unittests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4A24FEC-4BF6-4FC4-BD4E-D92C92006759}|ClinicFlow.UnitTests\\ClinicFlow.UnitTests.csproj|solutionrelative:clinicflow.unittests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64108363-4F4D-4416-85C0-B31DF6F468F8}|ClinicFlow.Infrastructure\\ClinicFlow.Infrastructure.csproj|c:\\users\\aquir\\documents\\proyectospersonales\\clinicflow\\src\\clinicflow\\clinicflow.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64108363-4F4D-4416-85C0-B31DF6F468F8}|ClinicFlow.Infrastructure\\ClinicFlow.Infrastructure.csproj|solutionrelative:clinicflow.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF7A248-9C9A-454A-9C4C-64D360BFC0E4}|ClinicFlow.Application\\ClinicFlow.Application.csproj|c:\\users\\aquir\\documents\\proyectospersonales\\clinicflow\\src\\clinicflow\\clinicflow.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF7A248-9C9A-454A-9C4C-64D360BFC0E4}|ClinicFlow.Application\\ClinicFlow.Application.csproj|solutionrelative:clinicflow.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DE2B829-3720-475C-83C2-BFEA857F5A27}|ClinicFlow.Domain\\ClinicFlow.Domain.csproj|c:\\users\\aquir\\documents\\proyectospersonales\\clinicflow\\src\\clinicflow\\clinicflow.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DE2B829-3720-475C-83C2-BFEA857F5A27}|ClinicFlow.Domain\\ClinicFlow.Domain.csproj|solutionrelative:clinicflow.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClinicFlow.Infrastructure",
+              "DocumentMoniker": "C:\\Users\\aquir\\Documents\\ProyectosPersonales\\clinicflow\\src\\ClinicFlow\\ClinicFlow.Infrastructure\\ClinicFlow.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "ClinicFlow.Infrastructure\\ClinicFlow.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\aquir\\Documents\\ProyectosPersonales\\clinicflow\\src\\ClinicFlow\\ClinicFlow.Infrastructure\\ClinicFlow.Infrastructure.csproj",
+              "RelativeToolTip": "ClinicFlow.Infrastructure\\ClinicFlow.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-11T09:32:48.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\aquir\\Documents\\ProyectosPersonales\\clinicflow\\src\\ClinicFlow\\ClinicFlow.ArchitectureTests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "ClinicFlow.ArchitectureTests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\aquir\\Documents\\ProyectosPersonales\\clinicflow\\src\\ClinicFlow\\ClinicFlow.ArchitectureTests\\UnitTest1.cs",
+              "RelativeToolTip": "ClinicFlow.ArchitectureTests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T09:31:41.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\aquir\\Documents\\ProyectosPersonales\\clinicflow\\src\\ClinicFlow\\ClinicFlow.IntegrationTests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "ClinicFlow.IntegrationTests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\aquir\\Documents\\ProyectosPersonales\\clinicflow\\src\\ClinicFlow\\ClinicFlow.IntegrationTests\\UnitTest1.cs",
+              "RelativeToolTip": "ClinicFlow.IntegrationTests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T09:31:25.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\aquir\\Documents\\ProyectosPersonales\\clinicflow\\src\\ClinicFlow\\ClinicFlow.UnitTests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "ClinicFlow.UnitTests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\aquir\\Documents\\ProyectosPersonales\\clinicflow\\src\\ClinicFlow\\ClinicFlow.UnitTests\\UnitTest1.cs",
+              "RelativeToolTip": "ClinicFlow.UnitTests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T09:31:02.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\aquir\\Documents\\ProyectosPersonales\\clinicflow\\src\\ClinicFlow\\ClinicFlow.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "ClinicFlow.Infrastructure\\Class1.cs",
+              "ToolTip": "C:\\Users\\aquir\\Documents\\ProyectosPersonales\\clinicflow\\src\\ClinicFlow\\ClinicFlow.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "ClinicFlow.Infrastructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T09:29:41.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\aquir\\Documents\\ProyectosPersonales\\clinicflow\\src\\ClinicFlow\\ClinicFlow.Application\\Class1.cs",
+              "RelativeDocumentMoniker": "ClinicFlow.Application\\Class1.cs",
+              "ToolTip": "C:\\Users\\aquir\\Documents\\ProyectosPersonales\\clinicflow\\src\\ClinicFlow\\ClinicFlow.Application\\Class1.cs",
+              "RelativeToolTip": "ClinicFlow.Application\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T09:29:21.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\aquir\\Documents\\ProyectosPersonales\\clinicflow\\src\\ClinicFlow\\ClinicFlow.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "ClinicFlow.Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\aquir\\Documents\\ProyectosPersonales\\clinicflow\\src\\ClinicFlow\\ClinicFlow.Domain\\Class1.cs",
+              "RelativeToolTip": "ClinicFlow.Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T09:28:56.44Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
