@@ -52,3 +52,16 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+# Visual Studio
+.vs/
+**/.vs/
+
+# VS Code
+.vscode/
+
+# Node / Angular
+node_modules/
+frontend/node_modules/
+
+# Angular cache
+.angular/

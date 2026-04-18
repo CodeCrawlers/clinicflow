@@ -1,7 +1,36 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\aquir\\Documents\\ProyectosPersonales\\clinicflow\\src\\ClinicFlow\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\sabia\\Documents\\Clinic Flows\\src\\ClinicFlow\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{906EF241-AA5A-3FC3-5618-DC2828EEC49B}|ClinicFlow.API\\ClinicFlow.API.csproj|c:\\users\\sabia\\documents\\clinic flows\\src\\clinicflow\\clinicflow.api\\clinicflow.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{906EF241-AA5A-3FC3-5618-DC2828EEC49B}|ClinicFlow.API\\ClinicFlow.API.csproj|solutionrelative:clinicflow.api\\clinicflow.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906EF241-AA5A-3FC3-5618-DC2828EEC49B}|ClinicFlow.API\\ClinicFlow.API.csproj|c:\\users\\sabia\\documents\\clinic flows\\src\\clinicflow\\clinicflow.api\\controllers\\patientscontrollercs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{906EF241-AA5A-3FC3-5618-DC2828EEC49B}|ClinicFlow.API\\ClinicFlow.API.csproj|solutionrelative:clinicflow.api\\controllers\\patientscontrollercs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{926898DD-5913-DB48-463A-F741640DE6FE}|ClinicFlow.Infrastructure\\ClinicFlow.Infrastructure.csproj|c:\\users\\sabia\\documents\\clinic flows\\src\\clinicflow\\clinicflow.infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{926898DD-5913-DB48-463A-F741640DE6FE}|ClinicFlow.Infrastructure\\ClinicFlow.Infrastructure.csproj|solutionrelative:clinicflow.infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906EF241-AA5A-3FC3-5618-DC2828EEC49B}|ClinicFlow.API\\ClinicFlow.API.csproj|c:\\users\\sabia\\documents\\clinic flows\\src\\clinicflow\\clinicflow.api\\clinicflow.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{906EF241-AA5A-3FC3-5618-DC2828EEC49B}|ClinicFlow.API\\ClinicFlow.API.csproj|solutionrelative:clinicflow.api\\clinicflow.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED166658-E38C-DCB6-827E-80FA847C795B}|ClinicFlow.Domain\\ClinicFlow.Domain.csproj|c:\\users\\sabia\\documents\\clinic flows\\src\\clinicflow\\clinicflow.domain\\clinicflow.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ED166658-E38C-DCB6-827E-80FA847C795B}|ClinicFlow.Domain\\ClinicFlow.Domain.csproj|solutionrelative:clinicflow.domain\\clinicflow.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906EF241-AA5A-3FC3-5618-DC2828EEC49B}|ClinicFlow.API\\ClinicFlow.API.csproj|c:\\users\\sabia\\documents\\clinic flows\\src\\clinicflow\\clinicflow.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{906EF241-AA5A-3FC3-5618-DC2828EEC49B}|ClinicFlow.API\\ClinicFlow.API.csproj|solutionrelative:clinicflow.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED166658-E38C-DCB6-827E-80FA847C795B}|ClinicFlow.Domain\\ClinicFlow.Domain.csproj|c:\\users\\sabia\\documents\\clinic flows\\src\\clinicflow\\clinicflow.domain\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED166658-E38C-DCB6-827E-80FA847C795B}|ClinicFlow.Domain\\ClinicFlow.Domain.csproj|solutionrelative:clinicflow.domain\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +38,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClinicFlow.API.http",
+              "DocumentMoniker": "C:\\Users\\sabia\\Documents\\Clinic Flows\\src\\ClinicFlow\\ClinicFlow.API\\ClinicFlow.API.http",
+              "RelativeDocumentMoniker": "ClinicFlow.API\\ClinicFlow.API.http",
+              "ToolTip": "C:\\Users\\sabia\\Documents\\Clinic Flows\\src\\ClinicFlow\\ClinicFlow.API\\ClinicFlow.API.http",
+              "RelativeToolTip": "ClinicFlow.API\\ClinicFlow.API.http",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-04-18T07:52:17.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PatientsControllercs",
+              "DocumentMoniker": "C:\\Users\\sabia\\Documents\\Clinic Flows\\src\\ClinicFlow\\ClinicFlow.API\\Controllers\\PatientsControllercs",
+              "RelativeDocumentMoniker": "ClinicFlow.API\\Controllers\\PatientsControllercs",
+              "ToolTip": "C:\\Users\\sabia\\Documents\\Clinic Flows\\src\\ClinicFlow\\ClinicFlow.API\\Controllers\\PatientsControllercs",
+              "RelativeToolTip": "ClinicFlow.API\\Controllers\\PatientsControllercs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAIwF4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-18T07:37:41.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\sabia\\Documents\\Clinic Flows\\src\\ClinicFlow\\ClinicFlow.Infrastructure\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ClinicFlow.Infrastructure\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\sabia\\Documents\\Clinic Flows\\src\\ClinicFlow\\ClinicFlow.Infrastructure\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ClinicFlow.Infrastructure\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T06:56:27.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\sabia\\Documents\\Clinic Flows\\src\\ClinicFlow\\ClinicFlow.Domain\\Patient.cs",
+              "RelativeDocumentMoniker": "ClinicFlow.Domain\\Patient.cs",
+              "ToolTip": "C:\\Users\\sabia\\Documents\\Clinic Flows\\src\\ClinicFlow\\ClinicFlow.Domain\\Patient.cs",
+              "RelativeToolTip": "ClinicFlow.Domain\\Patient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T06:43:01.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sabia\\Documents\\Clinic Flows\\src\\ClinicFlow\\ClinicFlow.API\\appsettings.json",
+              "RelativeDocumentMoniker": "ClinicFlow.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\sabia\\Documents\\Clinic Flows\\src\\ClinicFlow\\ClinicFlow.API\\appsettings.json",
+              "RelativeToolTip": "ClinicFlow.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-18T06:28:18.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClinicFlow.API.csproj",
+              "DocumentMoniker": "C:\\Users\\sabia\\Documents\\Clinic Flows\\src\\ClinicFlow\\ClinicFlow.API\\ClinicFlow.API.csproj",
+              "RelativeDocumentMoniker": "ClinicFlow.API\\ClinicFlow.API.csproj",
+              "ToolTip": "C:\\Users\\sabia\\Documents\\Clinic Flows\\src\\ClinicFlow\\ClinicFlow.API\\ClinicFlow.API.csproj",
+              "RelativeToolTip": "ClinicFlow.API\\ClinicFlow.API.csproj",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-17T08:06:00.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClinicFlow.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\sabia\\Documents\\Clinic Flows\\src\\ClinicFlow\\ClinicFlow.Domain\\ClinicFlow.Domain.csproj",
+              "RelativeDocumentMoniker": "ClinicFlow.Domain\\ClinicFlow.Domain.csproj",
+              "ToolTip": "C:\\Users\\sabia\\Documents\\Clinic Flows\\src\\ClinicFlow\\ClinicFlow.Domain\\ClinicFlow.Domain.csproj",
+              "RelativeToolTip": "ClinicFlow.Domain\\ClinicFlow.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-18T06:34:50.294Z",
+              "EditorCaption": ""
             }
           ]
         }
