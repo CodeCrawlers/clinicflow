@@ -1,4 +1,4 @@
-# clinicflow
+# Clinicflow
 
 ClinicFlow is a backend-oriented project designed to simulate and manage the core operations of a clinical environment. The system is built using ASP.NET and Entity Framework Core, with a SQL Server database, following a code-first approach.
 
