@@ -1,9 +1,0 @@
-<Solution>
-  <Project Path="ClinicFlow.API/ClinicFlow.API.csproj" />
-  <Project Path="ClinicFlow.Application/ClinicFlow.Application.csproj" />
-  <Project Path="ClinicFlow.ArchitectureTests/ClinicFlow.ArchitectureTests.csproj" />
-  <Project Path="ClinicFlow.Domain/ClinicFlow.Domain.csproj" />
-  <Project Path="ClinicFlow.Infrastructure/ClinicFlow.Infrastructure.csproj" />
-  <Project Path="ClinicFlow.IntegrationTests/ClinicFlow.IntegrationTests.csproj" />
-  <Project Path="ClinicFlow.UnitTests/ClinicFlow.UnitTests.csproj" />
-</Solution>
