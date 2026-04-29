@@ -23,4 +23,8 @@
     <ProjectReference Include="..\ClinicFlow.Infrastructure\ClinicFlow.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="ClinicFlow.API\Common\" />
+  </ItemGroup>
+
 </Project>

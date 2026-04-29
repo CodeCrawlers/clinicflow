@@ -1,93 +1,118 @@
-﻿using ClinicFlow.Infrastructure;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using ClinicFlow.Domain;
+using MediatR;
+using ClinicFlow.Application.Features.Patients.Dtos;
+using ClinicFlow.Application.Features.Patients.Queries.GetPatients;
+using ClinicFlow.Application.Features.Patients.Queries.GetPatientById;
+using ClinicFlow.Application.Features.Patients.Commands.CreatePatient;
+using ClinicFlow.Application.Features.Patients.Commands.UpdatePatient;
+using ClinicFlow.Application.Features.Patients.Commands.DeletePatient;
 
 namespace ClinicFlow.API.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/v1/[controller]")]
+    [Authorize]
     public class PatientsController : ControllerBase
     {
-        private readonly ApplicationDbContext _context;
+        private readonly IMediator _mediator;
 
-        public PatientsController(ApplicationDbContext context)
+        public PatientsController(IMediator mediator)
         {
-            _context = context;
+            _mediator = mediator;
         }
 
-        // GET /api/patients
+        /// <summary>
+        /// Get all patients
+        /// </summary>
+        /// <returns>List of all patients</returns>
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Patient>>> GetPatients()
+        public async Task<ActionResult<IEnumerable<PatientDto>>> GetPatients()
         {
-            var patients = await _context.Patients.ToListAsync();
-            return Ok(patients);
+            var query = new GetPatientsQuery();
+            var result = await _mediator.Send(query);
+
+            if (result.IsFailure)
+            {
+                return BadRequest(result.Error);
+            }
+
+            return Ok(result.Data);
         }
 
-        // GET /api/patients/1
+        /// <summary>
+        /// Get a patient by ID
+        /// </summary>
+        /// <param name="id">Patient ID</param>
+        /// <returns>Patient details</returns>
         [HttpGet("{id}")]
-        public async Task<ActionResult<Patient>> GetPatientById(int id)
+        public async Task<ActionResult<PatientDto>> GetPatientById(Guid id)
         {
-            var patient = await _context.Patients.FindAsync(id);
+            var query = new GetPatientByIdQuery(id);
+            var result = await _mediator.Send(query);
 
-            if (patient == null)
+            if (result.IsFailure)
             {
-                return NotFound();
+                return NotFound(result.Error);
             }
 
-            return Ok(patient);
+            return Ok(result.Data);
         }
 
-        // POST /api/patients
+        /// <summary>
+        /// Create a new patient
+        /// </summary>
+        /// <param name="createPatientDto">Patient data</param>
+        /// <returns>Created patient details</returns>
         [HttpPost]
-        public async Task<ActionResult<Patient>> CreatePatient(Patient patient)
+        public async Task<ActionResult<PatientDto>> CreatePatient([FromBody] CreatePatientDto createPatientDto)
         {
-            _context.Patients.Add(patient);
-            await _context.SaveChangesAsync();
+            var command = new CreatePatientCommand(createPatientDto);
+            var result = await _mediator.Send(command);
 
-            return CreatedAtAction(nameof(GetPatientById), new { id = patient.Id }, patient);
+            if (result.IsFailure)
+            {
+                return BadRequest(result.Error);
+            }
+
+            return CreatedAtAction(nameof(GetPatientById), new { id = result.Data?.Id }, result.Data);
         }
 
-        // PUT /api/patients/1
+        /// <summary>
+        /// Update an existing patient
+        /// </summary>
+        /// <param name="id">Patient ID</param>
+        /// <param name="updatePatientDto">Updated patient data</param>
+        /// <returns>No content</returns>
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdatePatient(int id, Patient patient)
+        public async Task<IActionResult> UpdatePatient(Guid id, [FromBody] UpdatePatientDto updatePatientDto)
         {
-            if (id != patient.Id)
+            var command = new UpdatePatientCommand(id, updatePatientDto);
+            var result = await _mediator.Send(command);
+
+            if (result.IsFailure)
             {
-                return BadRequest();
+                return NotFound(result.Error);
             }
-
-            var existingPatient = await _context.Patients.FindAsync(id);
-
-            if (existingPatient == null)
-            {
-                return NotFound();
-            }
-
-            existingPatient.FirstName = patient.FirstName;
-            existingPatient.LastName = patient.LastName;
-            existingPatient.BirthDate = patient.BirthDate;
-            existingPatient.Phone = patient.Phone;
-            existingPatient.Email = patient.Email;
-
-            await _context.SaveChangesAsync();
 
             return NoContent();
         }
 
-        // DELETE /api/patients/1
+        /// <summary>
+        /// Delete a patient
+        /// </summary>
+        /// <param name="id">Patient ID</param>
+        /// <returns>No content</returns>
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeletePatient(int id)
+        public async Task<IActionResult> DeletePatient(Guid id)
         {
-            var patient = await _context.Patients.FindAsync(id);
+            var command = new DeletePatientCommand(id);
+            var result = await _mediator.Send(command);
 
-            if (patient == null)
+            if (result.IsFailure)
             {
-                return NotFound();
+                return NotFound(result.Error);
             }
-
-            _context.Patients.Remove(patient);
-            await _context.SaveChangesAsync();
 
             return NoContent();
         }
