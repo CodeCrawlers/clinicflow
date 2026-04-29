@@ -15,6 +15,7 @@ public class Doctor : BaseEntity
     public User User { get; private set; } = null!;
 
     public ICollection<Appointment> Appointments { get; private set; } = new List<Appointment>();
+    public ICollection<MedicalRecord> MedicalRecords { get; private set; } = new List<MedicalRecord>();
 
     private Doctor() { }
 

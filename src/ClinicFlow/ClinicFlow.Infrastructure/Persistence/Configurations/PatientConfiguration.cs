@@ -24,5 +24,10 @@ public class PatientConfiguration : IEntityTypeConfiguration<Patient>
             .WithMany()
             .HasForeignKey(p => p.UserId)
             .OnDelete(DeleteBehavior.Restrict);
+
+        builder.HasMany(p => p.MedicalRecords)
+            .WithOne(m => m.Patient)
+            .HasForeignKey(m => m.PatientId)
+            .OnDelete(DeleteBehavior.Restrict);
     }
 }
